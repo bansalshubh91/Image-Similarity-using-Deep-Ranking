@@ -40,6 +40,7 @@ The output of each network, denoted by f(pi), f(pi+), f(pi-) is the feature embe
 This gets fed to the ranking layer.
 
 Ranking Layer
+
 The ranking layer just computes the triplet loss. It teaches the network to produce similar feature
 embeddings for images from the same class (and different embeddings for images from
 different classes). g is a gap parameter used for regularization purposes.
